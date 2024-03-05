@@ -1,0 +1,48 @@
+.why_choose{
+    position:relative;
+    background-color: $LightGrayishBlue;
+    width:100%;
+    z-index: -2;
+    margin-top:2%;
+    padding: {
+        left:6%;
+        right: 6%;
+    }
+    .heading{
+        h2{
+        margin-top:100px;
+        font-size:36px;
+        line-height: 41px;
+        color:$VeryDarkGrey;
+        margin-bottom:50px;
+        }
+        h4{
+            color:$GrayishBlue;
+            font-size: 18px;
+            line-height: 27px;
+            width:53%;
+            margin-bottom:70px;
+        }
+        .row{
+            img{
+                width:72px;
+                margin-bottom:40px;
+                display: inline-flex;
+            }
+            h4{
+                color:$VeryDarkGrey;
+                font-size: 24px;
+                line-height:28px;
+                margin-bottom:35px;
+                width:100%;
+            }
+            p{
+                color:$GrayishBlue;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 21px;
+                margin-bottom:80px;
+            }
+        }
+    }
+}

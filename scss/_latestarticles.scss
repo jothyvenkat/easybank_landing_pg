@@ -1,0 +1,52 @@
+.latest_articles{
+    width:100%;
+    background-color:$VeryLightGray;
+    padding: {
+        left: 6%;
+        right: 6%;
+        bottom: 70px;
+    }
+    h2{
+        font-size: 36px;
+        color:$VeryDarkGrey;
+        line-height: 41px;
+        margin: {
+            top:80px;
+            bottom: 75px;
+        } 
+    }
+    .line{
+        border-color:$White;
+        img{
+            height:200px;
+        }
+        .card-body{
+            h5{
+            font-size: 10px;
+            color:$GrayishBlue;
+            line-height: 13px;
+            margin: {
+                top:30px;
+                bottom: 12px;
+                }
+            }
+            h4{
+                color:$VeryDarkGrey;
+                font-size: 20px;
+                line-height: 24px;
+                margin-bottom: 7px;
+                width:80%;
+                &:hover{
+                    color:$LimeGreen;
+                    cursor:pointer;
+                }
+            }
+            p{
+                color:$GrayishBlue;
+                font-size: 16px;
+                line-height: 17px;
+                overflow: visible;
+            }
+        }
+    }
+}

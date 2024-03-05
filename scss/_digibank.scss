@@ -1,0 +1,78 @@
+.digibank{
+    background-color:$VeryLightGray;
+    position:relative;
+    z-index: -1;
+    .parent {
+        display:flex;
+        flex-direction:row-reverse;
+        z-index: 1;
+    }
+    .content{
+        padding: {
+            left:6%;
+            top:100px;
+            bottom:180px;
+        }
+        width:50%;
+        h2{
+            font-size: 50px;
+            line-height: 60px;
+            margin-bottom: 25px;
+            color:$VeryDarkGrey;
+            width:80%;
+        }
+        h4{
+            color:$GrayishBlue;
+            font-size: 18px;
+            line-height: 27px;
+            margin-bottom:35px;
+            span{
+                display:block;
+            }
+        }
+    }
+    .image{
+        overflow:hidden;
+        width:50%;
+        .bg1{
+            position: absolute;
+            top: -150px;
+            right: -140px;
+            z-index: 1;
+            width:57%;
+        }
+        // .bg2{
+        //     position: absolute;
+        //     top: -22%;
+        //     right: -127px;
+        //     z-index: 3;
+        //     width: 54%;
+        // }
+        .bg3{
+            display:none;
+        }
+        &::before {
+            content:"";
+            background-image: url('../images/bg-intro-desktop.svg');
+            height:145%;
+            width:123%;
+            display:block;
+            position:absolute;
+            top:-42%;
+            left:39%;
+        }
+    }
+}
+.mob_img{
+    overflow-x: hidden;
+    display:flex;
+    img {
+    display:inline-block;
+    position:absolute;
+    top:-7%;
+    right:-7%;
+    }
+}
+.combo {
+    overflow-x: hidden;;
+}

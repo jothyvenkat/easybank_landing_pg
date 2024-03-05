@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+$DarkBlue: hsl(233, 26%, 24%);
+$LimeGreen: hsl(136, 65%, 51%);
+$BrightCyan: hsl(192, 70%, 51%);
+
+$GrayishBlue: hsl(233, 8%, 62%);
+$LightGrayishBlue: hsl(220, 16%, 96%);
+$VeryLightGray: hsl(0, 0%, 98%);
+$White: hsl(0, 0%, 100%);
+$linear:linear-gradient(90deg,$LimeGreen , $BrightCyan);
+$DarkGrey:hsl(231,4%,35%);
+$VeryDarkGrey:hsl(238,25%,24%);
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+    // max-width:1450px;
+}
+body{
+    font-family: "Public Sans", sans-serif;
+    font-weight:300;
+    margin:0;
+}
+
+@import "_header.scss";
+
+.invite button{
+    color:$White;
+    font-size: 14px;
+    font-weight: 300;
+    background: $linear;
+    padding:13px 35px;
+    border:0;
+    border-radius:50px;
+    &:hover{
+        opacity:0.6;
+        cursor: pointer;
+    }
+}
+
+header {
+.mobile_icon{
+    display:none;
+}
+.dropdown{
+    display:none;
+}
+.dropdown.active{
+    display:block;
+    overflow-x: hidden;
+}
+}
+
+@import "_digibank.scss";
+
+@import "_whychoose.scss";
+
+@import "_latestarticles.scss";
+
+@import "_footer.scss";
+
+@import "_response.scss";
